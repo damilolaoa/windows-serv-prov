@@ -7,6 +7,7 @@ This project contains the step by step process through which my Windows Server 2
 <h2>Utilities Used</h2>
 
 - <b>VirtualBox</b> 
+- <b>VirtualBox Guest Additions</b> (can be downloaded on the VirtualBox website)
 - <b>Windows Server 2019 ISO Image</b>
 
 <h2>Environments Used </h2>
@@ -83,7 +84,7 @@ This helps make the experience better on the box level and the VM level
 <img src="https://imgur.com/3P8uZkA.png" height="80%" width="80%" alt="Provisioning Server 2019"/>
 <br />
 <br />
-To increase CPU, go to System > Processor > Increase. I increased mine to 4 for speed but if you don't want that, this can be skipped <br/>
+To increase CPU, go to System > Processor > Increase. I increased mine to 4 for speed but if you don't want this, it can be skipped <br/>
 <img src="https://imgur.com/GwlepdR.png" height="80%" width="80%" alt="Provisioning Server 2019"/>
 <br />
 <br />
@@ -95,10 +96,17 @@ For Adapter 2, check Enable network adapter > Select Internal Network from the d
 <img src="https://imgur.com/6T6AcUr.png" height="80%" width="80%" alt="Provisioning Server 2019"/>
 <br />
 <br />
-To increase CPU, go to System > Processor > Increase. I increased mine to 4 for speed but if you don't want that, this can be skipped <br/>
-<img src="https://imgur.com/sGs4Km6.png" height="80%" width="80%" alt="Provisioning Server 2019"/>
+<b> Now for the VM:</b> Start VM > Click Devices > Insert Guest Additions CD Image > Go to "This PC" through File Explorer:
+<img src="https://imgur.com/UrTWfYF.png" height="80%" width="80%" alt="Provisioning Server 2019"/>
 <br />
 <br />
-To increase CPU, go to System > Processor > Increase. I increased mine to 4 for speed but if you don't want that, this can be skipped <br/>
-<img src="https://imgur.com/sGs4Km6.png" height="80%" width="80%" alt="Provisioning Server 2019"/>
+Open Virtualbox Guest Additions > Double-click VBoxWindowsAdditions-amd64 and click next till you reach FInish<br/>
+<img src="https://imgur.com/hpUc1Nu.png" height="80%" width="80%" alt="Provisioning Server 2019"/>
+<br />
+<img src="https://imgur.com/38mUzbr.png" height="80%" width="80%" alt="Provisioning Server 2019"/>
+<br />
+<br />
+Click Reboot Later and then shut the VM down. When you restart, you'll notice the cursor isn't lagging anymore like it was, and you can resize the window of your Server better<br/>
+<img src="https://imgur.com/QmllH5H.png" height="80%" width="80%" alt="Provisioning Server 2019"/>
+<br />
 </p>
